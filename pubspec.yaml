@@ -1,0 +1,21 @@
+name: smart_flutter_tester
+description: >-
+  Key-free UI discovery, smart element location and diagnostic reporting
+  on top of flutter_test and integration_test.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Needed at runtime (not only dev): SmartTester wraps WidgetTester and
+  # exposes locators as flutter_test Finders.
+  flutter_test:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_lints: ^6.0.0

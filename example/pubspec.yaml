@@ -1,0 +1,24 @@
+name: smart_tester_example
+description: Sample app (no widget Keys) used to demonstrate smart_flutter_tester.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Runs the same tests on a real device/simulator.
+  integration_test:
+    sdk: flutter
+  smart_flutter_tester:
+    path: ../
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
